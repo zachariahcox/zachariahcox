@@ -1,28 +1,14 @@
 # password-encrypted 7zip archives
-the intent of this project is to create a secure way to store emergency documents in a way that only requires knowledge of the password. 
-all tools required to access the data are included. 
-instructions should be easy enough to follow that non-technical individuals can follow them. 
+This is a way to securely store emergency documents in a way that only requires knowledge of the password. 
 
-## folder layout
-```
-my_secure_zip_file_02012022
-|   instructions.txt
-|   my_secure_zip_file.7z
-└-- tools
-    └-- macos
-        | <various files>
-    └-- windows
-        | <various files>
-```
+* All tools required to access the data are included. 
+* Instructions should be easy enough to follow that non-technical individuals can follow them. 
 
-## using 7zip
-This directory contains the stand-alone version of 7zip, a tool for compressing files. 
+## extracting the secrets
+The `tools` directory contains the stand-alone version of 7zip, a tool for compressing files. 
 "Stand-alone" simply means it doesn't need to be installed to be used. 
+
 If the stand-alone version is not working for some reason, try installing it locally using the included installers. 
-On `macOS`, you may need to ensure the executable has the correct file permissions. 
-```bash
-$ chmod 755 /path/to/folder/tools/macOS/7za 
-```
 
 ### windows
 1. double click `extract.bat`
@@ -33,10 +19,10 @@ $ chmod 755 /path/to/folder/tools/macOS/7za
 4. `cd` ("change directory") into outer directory, EG:  `cd ~/Downloads/my_secure_zip_file`
 5. type `chmod +x tools/macOS/7za && tools/macOS/7za x my_secure_zip_file.7z` and hit enter.
 
-### installation instructions
+### 7zip installation instructions
 * On windows, double-click the exe and follow the instructions.
 * On macOS, install the Keka application from the .dmg.
-* On other operating systems (I guess linux?), you'll have to find your own installers for `p7zip` from https://www.7-zip.org/
+* On other operating systems, you'll have to find your own installers for `p7zip` from https://www.7-zip.org/
 
 ## extraction instructions
 Open the .7z file using 7zip and provide the password to gain access to the encrypted files.
@@ -46,8 +32,25 @@ From cmd:
 $ 7z x <archive>
 ```
 
-## creation instructions
-From a command line: 
+## payload creation instructions
+Your final payload should be a folder that looks like this.
+
+```
+secrets_2020_bundle
+|   instructions.txt (a copy of this file)
+|   secrets.7z (the actual secrets)
+|   extract.sh (the macOS script)
+|   extract.bat (the windows script)
+└-- tools
+    └-- macos
+        | <various files>
+    └-- windows
+        | <various files>
+```
+
+You'll create the secrets archive with 7zip.
+
+7zip options: 
 ```bash
 7z a \         # add to archive
    -t7z \      # use 7z extension
