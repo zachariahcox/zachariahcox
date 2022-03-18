@@ -8,7 +8,7 @@ instructions should be easy enough to follow that non-technical individuals can 
 my_secure_zip_file_02012022
 |   instructions.txt
 |   my_secure_zip_file.7z
-└-- unzip_tools
+└-- tools
     └-- macos
         | <various files>
     └-- windows
@@ -19,6 +19,19 @@ my_secure_zip_file_02012022
 This directory contains the stand-alone version of 7zip, a tool for compressing files. 
 "Stand-alone" simply means it doesn't need to be installed to be used. 
 If the stand-alone version is not working for some reason, try installing it locally using the included installers. 
+On `macOS`, you may need to ensure the executable has the correct file permissions. 
+```bash
+$ chmod 755 /path/to/folder/tools/macOS/7za 
+```
+
+### windows
+1. double click `extract.bat`
+
+### macOS 
+1. right click and unzip the outer archive (or double click it). EG: `my_secure_zip_file.7z` -- this would create a folder named `my_secure_zip_file`.
+3. open terminal.app
+4. `cd` ("change directory") into outer directory, EG:  `cd ~/Downloads/my_secure_zip_file`
+5. type `chmod +x tools/macOS/7za && tools/macOS/7za x my_secure_zip_file.7z` and hit enter.
 
 ### installation instructions
 * On windows, double-click the exe and follow the instructions.
