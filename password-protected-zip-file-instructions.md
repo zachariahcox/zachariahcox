@@ -15,13 +15,15 @@ my_secure_zip_file_02012022
         | <various files>
 ```
 
-## unzip_tools directory
-This directory contains the stand-alone version (7za), plus installers for 7zip.
-If the stand-alone is not working, try installing it locally using the included installers. 
+## using 7zip
+This directory contains the stand-alone version of 7zip, a tool for compressing files. 
+"Stand-alone" simply means it doesn't need to be installed to be used. 
+If the stand-alone version is not working for some reason, try installing it locally using the included installers. 
 
-On windows, double-click the exe and follow the instructions.
-On macOS, install the Keka application from the .dmg.
-On other operating systems, install p7zip from https://www.7-zip.org/
+### installation instructions
+* On windows, double-click the exe and follow the instructions.
+* On macOS, install the Keka application from the .dmg.
+* On other operating systems (I guess linux?), you'll have to find your own installers for `p7zip` from https://www.7-zip.org/
 
 ## extraction instructions
 Open the .7z file using 7zip and provide the password to gain access to the encrypted files.
@@ -32,7 +34,7 @@ $ 7z x <archive>
 ```
 
 ## creation instructions
-From cmd: 
+From a command line: 
 ```bash
 7z a \         # add to archive
    -t7z \      # use 7z extension
@@ -49,7 +51,7 @@ From cmd:
 
 example usage:
 ```bash
-$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p <out> <in>
+$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p MY_FILE.7z /path/to/my/folder
 ```
      
 list contents:
