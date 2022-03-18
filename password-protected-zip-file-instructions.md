@@ -57,14 +57,14 @@ From a command line:
    -md=32m     # Use a dictionary size = 32 megabytes
    -ms=on \    # Solid archive = on
    -mhe=on \   # enables archive header encryption (7z format only)
-   -p \        # use a password (provide via prompt)
+   -p \        # use a password (this will ask you to provide a password via prompt)
    <archive>   # desired output file name (should end with ".7z") 
-   <directory> # directory containing info files
+   <directory> # directory containing files to archive
 ```
 
 example usage:
 ```bash
-$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p MY_FILE.7z /path/to/my/folder
+$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p secrets.7z /path/to/my/folder_containing_secrets
 ```
      
 list contents:
