@@ -1,3 +1,5 @@
+0. How do you pronounce your name? 
+
 1. where are you presently in your career? 
 
 * what career-related skills are you currently working on? 
@@ -31,4 +33,8 @@
 8. time off
 * generally aim for about a week per quarter. 
 * let the team know in the vacation calendar and workday.
-* try to give us a few weeks of heads-up for longer time off.
+* try to give us a few weeks of heads-up for longer time off (or 2x the number of days you plan to be out)
+
+9. working hours
+* 11am est to 1pm est are org-meeting hours, please try to attend. 
+* important working meetings tend to be alternating scheduled; one week earlier for EU and EST timezones, the next later for PST. 
