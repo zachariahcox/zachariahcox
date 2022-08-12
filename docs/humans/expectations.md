@@ -10,9 +10,16 @@ I think you'll need a effective relationship with both of us to be maximally suc
 
 We should socialize the best information we have -- while targeting to an audience is important, we should strive to deliver the same news, good or bad, to all levels of the org chart.
 
-### results-focus
-I care about the results -- the work that we do each day should easily align with at least one of our Objectives and Key Results.
-If you feel like your current work does not align with those goals, oh no! We should discus it!
+### results focus
+I care about the results of work more than the activitives required to acheive them. 
+
+The work that we do each day should easily align with one of our Objectives and Key Results (OKRs) and we should be making steady, iterative progress. 
+If you feel like your current work does not align with those goals, oh no! We should discus it.
+
+It is not great for anyone to spend "too much" time stuck on a problem. 
+The exact amount of time will vary, some problems are harder than others, but this doesn't mean that progress stops.
+If your project involves solving a novel or difficult problem where progress will not be easily mapped to the number of PRs merged, I recommend making regular progress reports to keep the org updated on the challenges and approaches you have found, attempted or ruled-out.
+If you feel stuck, or stop making progress, please raise the issue with me. 
 
 ### engineering / observability focus
 Under normal circumstances, we should not be adding to our technical debt. 
