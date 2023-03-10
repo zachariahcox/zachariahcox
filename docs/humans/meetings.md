@@ -1,8 +1,9 @@
-# meeting and team schedules
+# Meeting and team schedules
 
-| agenda | length | cadence | goal |
+| Agenda | Length | Cadence | Goal |
 |---|---|---|---|
-|[1:1](1on1.md)|30m|weekly||
-|[new hire 1:1](1on1_init.md)|30m|once||
-|staff meeting|30m|weekly||
-|feature crew meeting|30m|weekly||
+|[Direct Manager 1:1](1on1.md)|30m|weekly | <need to write!>|
+|[New-hire 1:1](1on1_init.md)|30m|once|<need to write!>|
+|[Skip-level manager 1:1](1on1.md) | 30m | quarterly | <need to write!>|
+|Staff meeting | 30m | weekly | <need to write!>|
+|Feature crew (Work In Progress) meeting | at least 30m | at least weekly | <need to write!>|
