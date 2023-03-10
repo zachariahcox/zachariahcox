@@ -1,5 +1,5 @@
 # My expectations
-
+This is a quick written summary of the trends and themes I like to see on my teams. 
 
 ### Honesty / information stability 
 I try to be as transparent as possible, and I expect the same from you.
