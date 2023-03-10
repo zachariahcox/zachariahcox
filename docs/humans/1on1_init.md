@@ -1,40 +1,35 @@
 0. How do you pronounce your name? 
 
 1. where are you presently in your career? 
+  * What career-related skills are you currently working on? 
 
-* what career-related skills are you currently working on? 
+2. What kinds of things do you want to work on more (or less)? 
 
-2. what kinds of things do you want to work on more (or less)? 
+3. How do you like to work? 
+  * How much information do you need in order to make a decision? 
+  * How many projects do you like to balance at once? 
 
+4. What causes you stress? 
+  * How can I tell if you're in a bad mood? 
+  * How can I help when that happens?
 
-3. how do you like to work? 
-* How much information do you need in order to make a decision? 
+5. What do you like from your manager? 
+  * what's something your favorite previous manager was good at?
 
+6. What do you not like from your manager? 
+  * what's something your favorite previous manager was LESS good at?
 
-* How many projects do you like to balance at once? 
-
-
-4. what causes you stress? 
-* how can I tell if you're in a bad mood? how can I help when that happens?
-
-
-5. what do you like from your manager? 
-
-
-* what's something your favorite previous manager was good at?
-
-6. what do you not like from your manager? 
-
-
-* what's something your favorite previous manager was LESS good at?
-
-7. how do you like to receive praise? what makes you feel appreciated? 
+7. How do you like to receive praise? 
+  * What makes you feel appreciated? 
  
-8. time off
-* generally aim for about a week per quarter. 
-* let the team know in the vacation calendar and workday.
-* try to give us a few weeks of heads-up for longer time off (or 2x the number of days you plan to be out)
+8. Time off
+  * Generally aim for about a week per quarter.
+  * Let the team know in the vacation calendar and workday.
+  * Try to give me a few weeks of heads-up for longer time off (or 2x the number of days you plan to be out).
 
-9. working hours
-* 11am est to 1pm est are org-meeting hours, please try to attend. 
-* important working meetings tend to be alternating scheduled; one week earlier for EU and EST timezones, the next later for PST. 
+9. Working hours
+  * 11am est to 1pm EST are org-wide meeting hours, please attend. 
+  * Important working meetings tend to be alternating scheduled; one week earlier for EU and EST timezones, the next later for PST. 
+
+10. Expectations
+  * [Zac's Team Expectations Doc](/docs/humans/expectations.md).
