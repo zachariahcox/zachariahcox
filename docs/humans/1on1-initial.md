@@ -1,3 +1,8 @@
+## Initial 1:1
+The main goals of this meeting are to say hi! and get to know each other as human beings. 
+
+## Agenda
+
 0. How do you pronounce your name? 
 
 1. where are you presently in your career? 
