@@ -56,6 +56,8 @@ I expect you to be respectful of someone's lived experiences and to pay attentio
 This includes topics including, but not limited to, race, gender and gender expression, sexual identity or expression, class, disability, religion, age, body size, etc.  
 ### High-quality internet
 Not sure where else to put this, but when working remotely, I expect you to have a reliable, fast internet connection under all normal circumstances. 
-This is extremely important when presenting or screen sharing -- please optimise for the audience!
-If you need a new router or ethernet cable, please get one!
+This is extremely important when presenting or screen sharing. 
+If your wifi can be flakey, roll out a long ethernet cable for the demo, etc.
+
+If you need a better router or ethernet cable, please get one!
 It's probably expensable ;) 
