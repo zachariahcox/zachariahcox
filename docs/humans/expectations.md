@@ -25,12 +25,15 @@ If you feel stuck, or stop making progress, please raise the issue with me.
 Under normal circumstances, we should not be adding to our technical debt. 
 Code is meant to be read by humans. 
 It will be read more times than it was written, so optimize for the future reader (especially if that's you!).
-PR. When you open a PR, mentally switch roles and review the content from the reviewer's standpoint. 
+When you open a pull-request, mentally switch roles and review the content from the reviewer's standpoint. 
 
 All new code contributions should be accompanied by high-quality unit testing and built behind feature flags. 
 The deployment strategy should include enough telemetry to diagnose problems in production. 
 And hopefully charts and graphs. 
 I really really love dashboards!
+
+We should always absorb the majority of the risk in a feature rollout. 
+This means "staff-shipping," "dog-fooding" or otherwise generally ensuring our company is fully exposed to the feature before any customer.
 
 ### Iterative focus
 In general, projects that can be delivered iteratively are going to be: 
@@ -51,3 +54,8 @@ Sometimes misunderstandings will happen!
 
 I expect you to be respectful of someone's lived experiences and to pay attention to the power dynamics present in our interactions. 
 This includes topics including, but not limited to, race, gender and gender expression, sexual identity or expression, class, disability, religion, age, body size, etc.  
+### High-quality internet
+Not sure where else to put this, but when working remotely, I expect you to have a reliable, fast internet connection under all normal circumstances. 
+This is extremely important when presenting or screen sharing -- please optimise for the audience!
+If you need a new router or ethernet cable, please get one!
+It's probably expensable ;) 
