@@ -3,7 +3,7 @@
 Every situation will be somewhat different, but I have found this approach to be an effective general plan. 
 Recording these presentations is helpful and recommended. 
 
-Officially updading the on-call rotations can happen at various points during this process, 
+Officially updading the on-call rotations can happen at various points during this process, it's useful to discuss and document whether it will happen before or after completion of the process.
 
 ## Safely moving a project from one team (the "exporting" team) to a new team (the "receiving" team)
 1. Designate an individual from each of the exporting and receiving teams to lead the effort (Designated Responsible Individual)
