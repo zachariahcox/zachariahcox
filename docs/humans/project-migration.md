@@ -3,9 +3,7 @@
 Every situation will be somewhat different, but I have found this approach to be an effective general plan. 
 Recording these presentations is helpful and recommended. 
 
-
-## Safely moving a project from one team (the "exporting" team) to a new team (the "receiving" team)
-1. Designate an individual from each of the exporting and receiving teams to lead the effort (Designated Responsible Individual)
+1. Designate an individual from each of the "exporting" and "receiving" teams to lead the effort (Designated Responsible Individual)
 2. Define goal dates for the following on-call transfer plan: 
    * Phase 1: Receiving team begins "secondary" on-call rotation. Exporting team is still primary.
    * Phase 2: Receiving team takes over primary on-call, Exporting team becomes secondary.
