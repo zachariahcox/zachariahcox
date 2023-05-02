@@ -1,4 +1,4 @@
-# Migrating a project or charter to a new team
+# Migrating a project to a new team
 
 Every situation will be somewhat different, but I have found this approach to be an effective general plan. 
 Recording these presentations is helpful and recommended. 
