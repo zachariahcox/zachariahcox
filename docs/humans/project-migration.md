@@ -7,7 +7,7 @@ Officially updading the on-call rotations can happen at various points during th
 
 ## Safely moving a project from one team (the "exporting" team) to a new team (the "receiving" team)
 1. Designate an individual from each of the exporting and receiving teams to lead the effort (Designated Responsible Individual)
-1. Export DRI compiles a document of information about the service, including:
+1. Export DRI presents a document of information about the service, including:
    * Where are all the repos and resources
    * Architecture overview and diagrams
    * Key stakeholders
