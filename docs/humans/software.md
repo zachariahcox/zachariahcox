@@ -2,12 +2,13 @@
 
 ## Incident response
 * incident severity should be rated in terms of customer impact
-* how.complexsystems.fail
+* https://how.complexsystems.fail
 * The review process should optimize for creative solutions.
 * These ideas should be written down even though they may be rough -- the goal is to capture ideas worth considering. 
 * It is the job of engineering managers to make decisions about the captured "repair items." 
-* If a repair item is worth funding, it should be treated with high priority. 
-* There are other kinds of repair items that represent larger projects. These should be calibrated against other competing business goals for the team. 
+* If a repair item is worth funding, it should be treated with high priority by the entire organization. 
+* The best repair items are tactical and will make a difference in the short term -- think 1 or 2 weeks of investment. 
+* There are other kinds of repair items that represent larger projects. These may still be worth doing, but should be calibrated against other competing business goals for the team. 
 
 ## Optimize for the reader and code reviewer
 High quality, reviewable code tends to have a structure like this: 
