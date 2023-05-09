@@ -1,5 +1,15 @@
 # software 
 
+## Incident response
+* incident severity should be rated in terms of customer impact
+* how.complexsystems.fail
+* The review process should optimize for creative solutions.
+* These ideas should be written down even though they may be rough -- the goal is to capture ideas worth considering. 
+* It is the job of engineering managers to make decisions about the captured "repair items." 
+* If a repair item is worth funding, it should be treated with high priority. 
+* There are other kinds of repair items that represent larger projects. These should be calibrated against other competing business goals for the team. 
+
+## Optimize for the reader and code reviewer
 High quality, reviewable code tends to have a structure like this: 
 ```cpp
 // "this function will add two numbers and return the result"
