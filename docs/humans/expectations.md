@@ -61,3 +61,10 @@ If your wifi can be flakey, roll out a long ethernet cable for the demo, etc.
 
 If you need a better router or ethernet cable, please get one!
 It's probably expensable ;) 
+
+### Supporting the live product / data science is fun
+I personally place a lot of value on live site support -- being on-call for a global service makes people better engineers. 
+I expect all engineers to be on at least (and almost always _most_) 1 (one) on-call rotation. 
+
+As a corollary to this, avoid writing code that is "thrown over the wall" or otherwise contributing to the support burden of other teams. 
+We should support the code we produce. 
