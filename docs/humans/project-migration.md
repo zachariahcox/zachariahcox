@@ -1,6 +1,6 @@
 # Migrating a project to a new team
 
-Every situation will be somewhat different, but I have found this approach to be an effective general plan. 
+Every situation will be somewhat different, but this is a good starting point for a plan. 
 Recording these presentations is helpful and recommended. 
 
 1. Designate an individual from each of the "exporting" and "receiving" teams to lead the effort (Designated Responsible Individual)
