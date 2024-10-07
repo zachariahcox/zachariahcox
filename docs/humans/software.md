@@ -1,4 +1,4 @@
-# software 
+# Software Engineering Philosophy Topics 
 
 ## Incident response
 * incident severity should be rated in terms of customer impact
