@@ -11,17 +11,16 @@
 * There are other kinds of repair items that represent larger projects. These may still be worth doing, but should be calibrated against other competing business goals for the team. 
 
 ## Optimize for the reader and code reviewer
+Comments should precede logic and explain to the reader what the author is about to try to do in code.
 High quality, reviewable code tends to have a structure like this: 
 ```cpp
-// "this function will add two numbers and return the result"
+// this function will add two numbers and return the result (say what you're going to try to do)
 int add(int a, int b) {
-    return a + b;
+    return a + b; // try to do it
 }
 ```
 
-comments should precede logic and explain to the reader what the author is about to try to do in code.
-
-the reviewer's job is made easier when they can primarily focus on whether the code does what the author said it was supposed to do.
+The reviewer's job is made easier when they can primarily focus on whether the code does what the author said it was supposed to do.
 
 ```cpp
 // unit tests should not contain the motivation for why functions behave like they do
@@ -30,3 +29,23 @@ void test_add_function () {
     assert_equal(3, add(1,2), "basic addition");
 }
 ```
+## Test-driven development
+On my teams, I recommend that you write your tests _first_. 
+
+Test-driven development helps you poke holes in your implementation before you've grown too attached to it. 
+It's much more demoralizing to tear apart the work you just completed. 
+Better to do it first!
+
+## Feature flags
+
+New services must support feature flags. 
+
+New features must use feature flags. 
+
+Use exceptions sparingly and in coordination with your managers. 
+
+When rolling out any massive behavioral changes, consider implementing a _negative_ feature flag too. 
+This would be used as a quick pressure release valve for customers who escalate and are to important to leave in a broken state. 
+You can add them to the "temporary opt-out" feature flag while they complete their migrations. 
+
+A feature is not complete until all feature flags have been removed from the product. 
