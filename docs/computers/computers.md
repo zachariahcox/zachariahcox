@@ -10,17 +10,30 @@ This is not exactly a guide, but (at least the last time I checked) these links 
 ## how to store data
 This section needs work!
 
-* operating system on one disk
-* files on different disks
-* important files backed up in cloud
-* very important files on jump drives
+* Computers fail: the goal is for that to be as painless as possible.
+* Install your operating system on a small, fast disk.
+  * Keep your personal data files (including documents folders) on a separate disk whenever possible.
+  * icloud, onedrive are great options for redundancy.
+* Computer parts fail eventually.
+  * Cloud storage services from reputable sources (apple, microsoft) are absolutely more secure and reliable than any hardware you can buy and put in your home.
+  * Consider backing up most data files to the cloud.
+  * High security files you can keep on small jump drives in a safe.
 
 ## security
-
-* Reduce the number of things you have to remember or protect.
+In general:
 * Always use a password manager like 1password
-* Always use a password manager to generate strong passwords (never use the ones you make up yourself)
-* Whenever possible, use passkeys and store them in the password manager
+* Whenever possible, use pass_keys_ instead of pass_words_
+  * Not all websites support passkeys yet -- that's ok. Just do it where you can.
+  * Feel free to store those passkeys in your password manager.
+  * Passwords are better for sharing, such as between family members. They are not very secure.
+    * Never reuse passwords. They are regularly leaked in data breaches, any leaked passwords will be tried on other accounts you may own.
+    * Every password should be long (>15 characters)
+    * If you can remember it at all, it is a bad password.
+* Always use two-factor authorization (aka: 2FA, or "multi-factor auth" MFA -- these are the same thing)
+  * As an attacker, there's a certain amount of work required to steal a password, or a physical key, phone, or email account.
+  However, as a user, you already have all of those things and it's not _that_ much more annoying to use two of them instead of one.
+  * This asymmetry between the small annoyance incurred by having to use two factors versus the large difficulty incurred by the need to steal multiple factors is the reason the system works.
+  * Feel free to use your password manager as your second factor (with some exceptions, see below).
 
 
 What is the minimum number of things you have to protect?
@@ -30,8 +43,7 @@ What is the minimum number of things you have to protect?
   * a malicious person with access to your email account could access most of your online identities by initiating a password reset request that sends and email for verification.
 * "two factor auth" (2fa)
   * Passwords alone are problematic -- Ali Baba overhearing the password "open sesame" was all it took to defeat the 40 thieves' security system! If they had required the password in addition to having the right physical key (a second form of auth) they might have kept their treasure. https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves
-  * The idea of 2FA is that as an attacker, it's hard to steal a password, it's hard to steal a key, phone, or email account. However, as a user, it's easy to have both of those things, and it's not _that_ much more annoying to always use two of them instead of one.
-  * This asymmetry between the additional annoyance incurred by having to use two factors versus the additional difficulty incurred by the need to _steal_ two factors is the reason the system works, and why it's kind of elegant.
+  *
 
 ### Different forms of 2FA
 For real, why are there so many?
@@ -57,4 +69,22 @@ A few videos might help you build a mental model of how they work:
   * The basic idea is that there is only one of your phone, so the owner of the phone must be you!
   * Unfortunately, SMS is not a secure form of 2fa due to threats like [SIM swapping scams](https://en.wikipedia.org/wiki/SIM_swap_scam), although it is much better than no 2fa at all!
 
+# the basic plan
+
+Minimize critical accounts
+In an emergency (house burns down, all authorized devices destroyed somehow) you'll need to recover these first as a way "bootstrap" your way back into all your other accounts.
+These should be the hardest accounts to steal as an attacker.
+
+If your password manager is compromised / stolen, it must not be possible to log into these accounts.
+That means no one time recovery codes for google or 1password should be stored _in_ 1password.
+
+
+
+
+* google account
+  * lots of sites use email for primary verification
+  * password resets for many sites still rely on email
+  * primary form of identification (you must be you if you can log into your email)
+* password manager (1password)
+  * most of your passwords and passkeys are here.
 
