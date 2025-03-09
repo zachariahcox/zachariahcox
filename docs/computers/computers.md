@@ -1,25 +1,43 @@
 # Overview
-This is not exactly a guide, but (at least the last time I checked) these links were a better summary of their topics than I could write.
+It is hard to do all the right things on the internet.
+This is a short summary of the big ideas and links to further reading.
 
-## how to use the internet
+## Someone will eventually steal your identity (or you'll have your passwords discovered as part of a data breach)
+
+There are too many examples to list, but the big experian one is hard to ignore.
+https://www.twingate.com/blog/tips/experian-data-breach
+
+In that case, you didn't even have to be a deliberate customer of experian to be impacted, and this is unfortunately often the case.
+
+
+## Your computer will eventually break
+
+How bad would that be for you right now?
+Are there any files or photos on your computer that have no backups?
+
+
+## How to use the internet
 * https://www.nytimes.com/wirecutter/blog/internet-security-layers/
 * https://www.nytimes.com/wirecutter/blog/best-antivirus
 * https://blog.lastpass.com/2021/10/are-you-cyber-smart-a-checklist/
 * https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/
+* From the US Cybersecurity, Infrastructure and Security Agency: [Shield's up!](https://www.cisa.gov/shields-guidance-families)
 
-## how to store data
+## How to store data
 This section needs work!
 
 * Computers fail: the goal is for that to be as painless as possible.
 * Install your operating system on a small, fast disk.
   * Keep your personal data files (including documents folders) on a separate disk whenever possible.
-  * icloud, onedrive are great options for redundancy.
+  * Apple icloud, Google Drive, Microsoft OneDrive are great options for redundancy
 * Computer parts fail eventually.
   * Cloud storage services from reputable sources (apple, microsoft) are absolutely more secure and reliable than any hardware you can buy and put in your home.
   * Consider backing up most data files to the cloud.
   * High security files you can keep on small jump drives in a safe.
 
-## security
+## Security
+
+
 In general:
 * Always use a password manager like 1password
 * Whenever possible, use pass_keys_ instead of pass_words_
