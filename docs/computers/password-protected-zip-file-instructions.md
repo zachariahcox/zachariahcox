@@ -17,7 +17,7 @@ If the stand-alone version is not working for some reason, try installing it loc
 1. double click the `extract.sh` file
 3. open terminal.app
 4. navigate to wherever your zip file is using the `cd` ("change directory") command, EG:`cd ~/Downloads`
-5. type `chmod +x tools/macOS/7za && tools/macOS/7za x my_secure_zip_file.7z` and hit enter.
+5. type (or copy and paste) this `chmod +x tools/macOS/7za && tools/macOS/7za x whatever-your-zip-file-is-called.7z` and hit enter.
 
 ### 7zip installation instructions
 * On windows, double-click the exe and follow the instructions.
