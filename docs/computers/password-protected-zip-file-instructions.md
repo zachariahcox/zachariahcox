@@ -11,12 +11,12 @@ The `tools` directory contains the stand-alone version of 7zip, a tool for compr
 If the stand-alone version is not working for some reason, try installing it locally using the included installers. 
 
 ### windows
-1. double click `extract.bat`
+1. double click `extract.bat` file
 
 ### macOS 
-1. right click and unzip the outer archive (or double click it). EG: `my_secure_zip_file.7z` -- this would create a folder named `my_secure_zip_file`.
+1. double click the `extract.sh` file
 3. open terminal.app
-4. `cd` ("change directory") into outer directory, EG:  `cd ~/Downloads/my_secure_zip_file`
+4. navigate to wherever your zip file is using the `cd` ("change directory") command, EG:`cd ~/Downloads`
 5. type `chmod +x tools/macOS/7za && tools/macOS/7za x my_secure_zip_file.7z` and hit enter.
 
 ### 7zip installation instructions
