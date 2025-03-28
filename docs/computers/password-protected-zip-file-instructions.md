@@ -1,44 +1,20 @@
-# password-encrypted 7zip archives
-This is a way to securely store emergency documents in a way that only requires knowledge of the password. 
+# Password-encrypted secrets
+This directory contains encrypted secrets. 
+The secrets are stored in a password-protected zip file. 
+That means even if some one finds this jump drive, they would still need the password to unlock it. 
 
-* All tools required to access the data are included. 
-* Instructions should be easy enough to follow that non-technical individuals can follow them. 
+This makes it a pretty good way to store images of travel documents. 
+Those are things you want to bring with you, but don't want to necessarily leave lying around in the open or risk losing.
 
-## extracting the secrets
-The `tools` directory contains the stand-alone version of 7zip, a tool for compressing files. 
-"Stand-alone" simply means it doesn't need to be installed to be used. 
+This tool uses "7zip" files (with the `7z` extension).
+`.7z` are not just regular zip files, you'll need a special tool to open them.
+All tools required to access the data are included. 
 
-If the stand-alone version is not working for some reason, try installing it locally using the included installers. 
-
-### windows
-1. double click `extract.bat` file
-
-### macOS 
-1. double click the `extract.sh` file
-3. open terminal.app
-4. navigate to wherever your zip file is using the `cd` ("change directory") command, EG:`cd ~/Downloads`
-5. type (or copy and paste) this `chmod +x tools/macOS/7za && tools/macOS/7za x whatever-your-zip-file-is-called.7z` and hit enter.
-
-### 7zip installation instructions
-* On windows, double-click the exe and follow the instructions.
-* On macOS, install the Keka application from the .dmg.
-* On other operating systems, you'll have to find your own installers for `p7zip` from https://www.7-zip.org/
-
-## extraction instructions
-Open the .7z file using 7zip and provide the password to gain access to the encrypted files.
-
-From cmd:
-```bash
-$ 7z x <archive>
+The folder layout looks like this: 
 ```
-
-## payload creation instructions
-Your final payload should be a folder that looks like this.
-
-```
-secrets_2020_bundle
-|   instructions.txt (a copy of this file)
-|   secrets.7z (the actual secrets)
+secrets_folder
+|   README.md (a copy of this file)
+|   secrets.7z (the encrypted secrets)
 |   extract.sh (the macOS script)
 |   extract.bat (the windows script)
 └-- tools
@@ -48,9 +24,42 @@ secrets_2020_bundle
         | <various files>
 ```
 
-You'll create the secrets archive with 7zip.
 
-7zip options: 
+### Included tools
+The `tools` directory should contain all the tools you need to get into the 7zip files. 
+If the included version is not working for some reason, try installing 7zip locally using the included installers. 
+
+### 7zip installation instructions
+* On windows, double-click the exe and follow the instructions.
+* On macOS, install the Keka application from the .dmg.
+* On other operating systems, you'll have to find your own installers for `p7zip` from https://www.7-zip.org/
+
+## Extraction
+For these examples, we'll assume that the top-level directory is called `secrects_folder` (like in the diagram above) and that the 7zip file is named "secrets.7z".
+If the files or folder look like they're named differently, use whatever names you see in the below scripts.
+
+### windows
+1. double click `extract.bat` file
+
+### macOS 
+1. double click the `extract.sh` file
+3. open terminal.app
+4. type `cd /path/to/secrects_folder && chmod +x tools/macOS/7za && tools/macOS/7za x secrets.7z`
+6. hit enter.
+
+## Creating the secrets.7zip
+You'll want to create a folder structure just like the one described at the top.
+
+### Steps
+1. Create folder to contain your secrets. For this example, we'll assume it's named `secrets_folder` and it's on the `c:` drive. It's aboslute path is then `c:\secrets_folder`.
+2. Fill your folder with secrets
+3. Make sure 7zip is installed.
+4. When you're ready to seal it, run this command: `$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p secrets.7z /path/to/secrects_folder`
+5. This will create a file named `secrets.7z` with the encrypted contents of `c:/secrects_folder`.
+6. Do not include the unencrypted `c:/secrects_folder` in your emergency jump drive.
+
+### Other helpful commands
+What do all those options do? 
 ```bash
 7z a \         # add to archive
    -t7z \      # use 7z extension
@@ -65,11 +74,6 @@ You'll create the secrets archive with 7zip.
    <directory> # directory containing files to archive
 ```
 
-example usage:
-```bash
-$ 7z a -t7z -m0=lzma2 -mx=9 -mfb=64 -md=32m -ms=on -mhe=on -p secrets.7z /path/to/my/folder_containing_secrets
-```
-     
 list contents:
 ```bash
 $ 7z l <archive>
