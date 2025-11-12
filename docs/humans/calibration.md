@@ -4,8 +4,8 @@ The goal of this process is to fairly reward high performers, perform a departme
 
 We will reference the discipline's official career ladder regularly.
 
-Depending on the scope of the calibration, it may not be possible to review each employees contributions in detail. 
-In this way, the process works like a giant merge sort, where the subsorting is delegated. 
+Depending on the scope of the calibration, it may not be possible to review each employees contributions in detail.
+In this way, the process works like a giant merge sort, where the sub-sorting is delegated.
 
 ## Data collection
 The exact format may have some specifics change between reorgs to accommodate new constraints, but typically involves filling out a spreadsheet with the following columns per direct report.
@@ -32,7 +32,7 @@ There will be a series of meetings where the team leaders will align on:
 1. Balancing the rewards to meet the given budget.
 1. Configuring the rewards to meet any required "differentiation" goals.
    * EG: X engineers must receive top rewards and Y must receive low rewards.
-   * EG: X% of engineers may receive "target" rewards. 
+   * EG: X% of engineers may receive "target" rewards.
 1. Definition of "cohorts" and "pain points" (see below)
 
 Depending on the initial skew this can take a while.
@@ -42,7 +42,7 @@ Each manager will produce a rating for each member of their team.
 
 These ratings work best when they are an honest assessment.
 Promoting the impact of your team members is an important aspect of a manager's job, but it should stop short of gamesmanship here.
-Aspirational ratings do not tend to result in higher rewards for your folks in the long term, and definitely annoys your peers. 
+Aspirational ratings do not tend to result in higher rewards for your folks in the long term, and definitely annoys your peers.
 It also slows the process down.
 
 It is much more fun to decide which folks to "pull up" to a higher rating than to spend the whole meeting pulling folks "down" into a balanced budget.
@@ -87,8 +87,8 @@ For the same budget allotment, we can bump 1 senior or 2 junior ICs up to the ne
 
 ### Should there be the same number of above-target performers at each level?
 
-No. They are not correlated. However, senior+ have large impact on the overal budget spend.
-If you have a period where higher-ranking engineers have lower impact than expected, there may be additional budget available to allocate elsewhere. 
+No. They are not correlated. However, senior+ have large impact on the overall budget spend.
+If you have a period where higher-ranking engineers have lower impact than expected, there may be additional budget available to allocate elsewhere.
 
 ### Level checks
 

@@ -18,7 +18,7 @@ sudo apt install -y git golang-go p7zip-full gh
 
 # Configure Git
 git config --global user.name "Zachariah Cox"
-git config --global user.email "zachariahcox@github.com"
+git config --global user.email "zachariahcox@gmail.com"
 git config --global core.editor "code-insiders --wait"
 git config --global core.excludesfile ~/.gitignore_global
 git config --global color.ui auto
