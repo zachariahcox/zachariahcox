@@ -1,4 +1,9 @@
 <#
+Run this script as Administrator. 
+A Windows restart may be required for some changes.
+$> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
 This script will perform the following installations and system changes:
 
 - Install most software from winget:
@@ -19,8 +24,6 @@ This script will perform the following installations and system changes:
     - Enable Virtual Machine Platform and Windows Subsystem for Linux
     - Update WSL components and set WSL2 as the default
     - Install or ensure `Ubuntu-24.04` is present and set as the default distro
-
-Run this script as Administrator. A Windows restart may be required for some changes.
 #>
 # Ensure script is running elevated
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
@@ -54,16 +57,30 @@ $downloadPath = "$env:USERPROFILE\Downloads\SetupTools"
 New-Item -ItemType Directory -Path $downloadPath -Force | Out-Null
 
 # Download NVIDIA App
-$nvidiaUrl = "https://international.download.nvidia.com/nvidia/app/nvidiaapp/latest/NVIDIAAppInstaller.exe"
-$nvidiaInstaller = "$downloadPath\NVIDIAAppInstaller.exe"
-Invoke-WebRequest -Uri $nvidiaUrl -OutFile $nvidiaInstaller
-Start-Process -FilePath $nvidiaInstaller -ArgumentList "/S" -Wait
+try {
+    Write-Host "Downloading NVIDIA App..."
+    $nvidiaUrl = "https://international.download.nvidia.com/nvidia/app/nvidiaapp/latest/NVIDIAAppInstaller.exe"
+    $nvidiaInstaller = "$downloadPath\NVIDIAAppInstaller.exe"
+    Invoke-WebRequest -Uri $nvidiaUrl -OutFile $nvidiaInstaller
+    Start-Process -FilePath $nvidiaInstaller -ArgumentList "/S" -Wait
+    Write-Host "NVIDIA App installed successfully"
+} catch {
+    Write-Warning "Failed to download or install NVIDIA App: $_"
+    Write-Host "Please download manually from: https://www.nvidia.com/en-us/software/nvidia-app/"
+}
 
 # Download Razer Synapse
-$razerUrl = "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller.exe"
-$razerInstaller = "$downloadPath\RazerSynapseInstaller.exe"
-Invoke-WebRequest -Uri $razerUrl -OutFile $razerInstaller
-Start-Process -FilePath $razerInstaller -ArgumentList "/S" -Wait
+try {
+    Write-Host "Downloading Razer Synapse..."
+    $razerUrl = "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller.exe"
+    $razerInstaller = "$downloadPath\RazerSynapseInstaller.exe"
+    Invoke-WebRequest -Uri $razerUrl -OutFile $razerInstaller
+    Start-Process -FilePath $razerInstaller -ArgumentList "/S" -Wait
+    Write-Host "Razer Synapse installed successfully"
+} catch {
+    Write-Warning "Failed to download or install Razer Synapse: $_"
+    Write-Host "Please download manually from: https://www.razer.com/synapse-4"
+}
 
 # --- WSL: enable features, update, and install latest Ubuntu ---
 Write-Host "`n--> Ensuring WSL and Virtual Machine Platform features are enabled"
