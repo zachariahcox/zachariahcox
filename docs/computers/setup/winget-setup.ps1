@@ -41,7 +41,9 @@ $apps = @(
     "Microsoft.PowerToys",
     "Microsoft.PowerShell",
     "Microsoft.WindowsTerminal",
-    "Valve.Steam"
+    "Valve.Steam",
+    "Guru3D.Afterburner",
+    "RazerInc.RazerInstaller.Synapse3"
 )
 
 foreach ($app in $apps) {
@@ -67,19 +69,6 @@ try {
 } catch {
     Write-Warning "Failed to download or install NVIDIA App: $_"
     Write-Host "Please download manually from: https://www.nvidia.com/en-us/software/nvidia-app/"
-}
-
-# Download Razer Synapse
-try {
-    Write-Host "Downloading Razer Synapse..."
-    $razerUrl = "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller.exe"
-    $razerInstaller = "$downloadPath\RazerSynapseInstaller.exe"
-    Invoke-WebRequest -Uri $razerUrl -OutFile $razerInstaller
-    Start-Process -FilePath $razerInstaller -ArgumentList "/S" -Wait
-    Write-Host "Razer Synapse installed successfully"
-} catch {
-    Write-Warning "Failed to download or install Razer Synapse: $_"
-    Write-Host "Please download manually from: https://www.razer.com/synapse-4"
 }
 
 # --- WSL: enable features, update, and install latest Ubuntu ---
