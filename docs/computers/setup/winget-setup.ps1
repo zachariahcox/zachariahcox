@@ -46,13 +46,54 @@ $apps = @(
     "RazerInc.RazerInstaller.Synapse3"
 )
 
+# update registries
+winget source update
+
+# Track failed installs (capture detailed output)
+$failedPackages = @()
 foreach ($app in $apps) {
     Write-Host "Installing $app..."
-    winget install --id $app --exact --silent --accept-package-agreements --accept-source-agreements
+    try {
+        $output = & winget install --id $app --exact --silent --accept-package-agreements --accept-source-agreements 2>&1
+        if ($LASTEXITCODE -ne 0) {
+            $joined = $output -join "`n"
+            Write-Warning "Installation failed for $app (exit code $LASTEXITCODE)"
+            $failedPackages += "$app - ExitCode $LASTEXITCODE`n$joined"
+        } else {
+            Write-Host "$app installed successfully"
+        }
+    } catch {
+        $err = $_.ToString()
+        Write-Warning "Installation failed for $app: $err"
+        $failedPackages += "$app - Exception: $err"
+    }
 }
 
 # upgrade all winget packages
-winget upgrade --all
+try {
+    & winget upgrade --all
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "Some winget upgrades returned non-zero exit code: $LASTEXITCODE"
+    }
+} catch {
+    Write-Warning "winget upgrade failed: $_"
+}
+
+# Summarize any failed installs to a log
+if ($failedPackages.Count -gt 0) {
+    $logDir = "$env:USERPROFILE\Downloads\SetupTools"
+    New-Item -ItemType Directory -Path $logDir -Force | Out-Null
+    $logPath = Join-Path $logDir "winget-failures.log"
+    "Failed winget installs - $(Get-Date)" | Out-File -FilePath $logPath -Encoding utf8
+    "---" | Out-File -FilePath $logPath -Append -Encoding utf8
+    foreach ($entry in $failedPackages) {
+        $entry | Out-File -FilePath $logPath -Append -Encoding utf8
+        "---" | Out-File -FilePath $logPath -Append -Encoding utf8
+    }
+    Write-Host "`n⚠️ Some packages failed to install via winget. See $logPath for details."
+} else {
+    Write-Host "`nAll winget packages installed successfully."
+}
 
 # Create a downloads directory
 $downloadPath = "$env:USERPROFILE\Downloads\SetupTools"
