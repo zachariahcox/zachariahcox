@@ -5,7 +5,7 @@ The main goals of this meeting are to say hi! and get to know each other as huma
 
 
 ### 1. Where are you presently in your career?
-- What career-related skills are you currently working on?
+* What career-related skills are you currently working on?
 
 ### 1.5 Stay Interview (for folks that have already been here a while)
 * How happy are you with your job (1-10)?
@@ -19,35 +19,35 @@ The main goals of this meeting are to say hi! and get to know each other as huma
 
 
 ### 3. How do you like to work?
-- How much information do you need in order to make a decision?
-- How many projects do you like to balance at once?
+* How much information do you need in order to make a decision?
+* How many projects do you like to balance at once?
 
 
 ### 4. What causes you stress?
-- How can I tell if you're in a bad mood?
-- How can I help when that happens?
+* How can I tell if you're in a bad mood?
+* How can I help when that happens?
 
 ### 5. What do you like from your manager?
-- What's something your favorite previous manager was good at?
+* What's something your favorite previous manager was good at?
 
 ### 6. What do you not like from your manager?
-- What's something your favorite previous manager was less good at?
+* What's something your favorite previous manager was less good at?
 
 
 ### 7. How do you like to receive praise?
-- What makes you feel appreciated?
+* What makes you feel appreciated?
 
 
 ### 8. Time Off
-- Generally aim for about a week per quarter.
-- Try to give me a few weeks of heads-up for longer time off (or 2× the number of days you plan to be out).
+* Generally aim for about a week per quarter.
+* Try to give me a few weeks of heads-up for longer time off (or 2× the number of days you plan to be out).
 
 
 ### 9. Working Hours
-- 11 AM EST to 1 PM EST are org-wide meeting hours—please attend.
-- Important working meetings tend to be alternatingly scheduled: one week earlier for EU and EST timezones, the next later for PST.
+* 11 AM EST to 1 PM EST are org-wide meeting hours—please attend.
+* Important working meetings tend to be alternatingly scheduled: one week earlier for EU and EST timezones, the next later for PST.
 
 
 ### 10. Expectations
-- [Zac's Team Expectations Doc](/docs/humans/expectations.md)
+* [Zac's Team Expectations Doc](https://github.com/zachariahcox/zachariahcox/main/docs/humans/expectations.md)
 
