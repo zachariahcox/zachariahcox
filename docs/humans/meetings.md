@@ -4,7 +4,7 @@
 | Agenda | Length | Cadence | Goal |
 |---|---|---|---|
 |[Direct Manager 1:1](1on1.md)|30m|weekly | coaching, celebrating, checking alignment, knowledge sharing|
-|[New-hire 1:1](1on1_init.md)|30m|once| asking all the awkward questions, getting to know each other as humans|
+|[New-hire 1:1](1on1_initial.md)|30m|once| asking all the awkward questions, getting to know each other as humans|
 |[Skip-level manager 1:1](1on1.md) | 30m | quarterly | checking alignment, information gathering, getting to know each other as humans|
 | Eng staff meeting | 30m | weekly | knowledge sharing, celebrating accomplishments, work assignments |
 |Feature crew (Work In Progress) meeting | at least 30m | weekly | sync between eng, product, design. Walk the board. |
