@@ -23,8 +23,8 @@ int add(int a, int b) {
 The reviewer's job is made easier when they can primarily focus on whether the code does what the author said it was supposed to do.
 
 ```cpp
-// unit tests should not contain the motivation for why functions behave like they do
-// if a function has unexpected behaviors, it should be detailed inline with the logic. 
+// if a function has unexpected behaviors, these should be documented with the source, not the unit test.
+// EG: if the `add` function fails for negative numbers the documentation for the surprising behavior should be in the function source, not the test source.
 void test_add_function () {
     assert_equal(3, add(1,2), "basic addition");
 }
@@ -38,14 +38,10 @@ Better to do it first!
 
 ## Feature flags
 
-New services must support feature flags. 
-
-New features must use feature flags. 
-
-Use exceptions sparingly and in coordination with your managers. 
-
-When rolling out any massive behavioral changes, consider implementing a _negative_ feature flag too. 
+* New services must _support_ feature flags. 
+* New features must _use_ feature flags. 
+* Use exceptions sparingly and in coordination with your managers. 
+* When rolling out any massive behavioral changes, consider implementing a _negative_ feature flag too. 
 This would be used as a quick pressure release valve for customers who escalate and are to important to leave in a broken state. 
 You can add them to the "temporary opt-out" feature flag while they complete their migrations. 
-
-A feature is not complete until all feature flags have been removed from the product. 
+* A feature is not complete until all feature flags have been removed from the product. 
