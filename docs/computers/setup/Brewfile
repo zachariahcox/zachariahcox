@@ -1,0 +1,30 @@
+# ---------- Homebrew taps ----------
+tap "github/bootstrap"
+
+# ---------- CLI Tools ----------
+brew "node"
+brew "python"
+brew "wget"
+brew "curl"
+brew "jq"
+brew "make"
+brew "gh"
+brew "git"
+brew "go"
+
+# ---------- GUI Apps ----------
+cask "1password"
+cask "visual-studio-code@insiders"
+cask "iterm2"
+cask "slack"
+cask "zoom"
+cask "docker"
+cask "postman"
+cask "stats"
+cask "microsoft-edge"
+cask "microsoft-teams"
+cask "spotify"
+cask "tg-pro"
+cask "graphiql"
+cask "discord"
+cask "elgato-control-center"
