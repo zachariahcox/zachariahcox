@@ -42,6 +42,6 @@ Better to do it first!
 * New features must _use_ feature flags. 
 * Use exceptions sparingly and in coordination with your managers. 
 * When rolling out any massive behavioral changes, consider implementing a _negative_ feature flag too. 
-This would be used as a quick pressure release valve for customers who escalate and are to important to leave in a broken state. 
-You can add them to the "temporary opt-out" feature flag while they complete their migrations. 
+This would be used as a quick pressure release valve for customers who escalate due to an emergency. 
+You can add them to the "temporary-opt-out" feature flag while they complete their migrations. 
 * A feature is not complete until all feature flags have been removed from the product. 
