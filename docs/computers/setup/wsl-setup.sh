@@ -14,7 +14,7 @@ cd ~ || exit 1
 echo "Updating package lists and upgrading installed packages"
 sudo apt update -y
 sudo apt full-upgrade -y
-sudo apt install -y git golang-go p7zip-full gh
+sudo apt install -y git golang-go p7zip-full gh make
 
 # Configure Git
 git config --global user.name "Zachariah Cox"
