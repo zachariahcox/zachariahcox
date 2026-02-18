@@ -14,7 +14,7 @@
 ### Update on in-progress work
 
 * link to feature issue
-  * Current status as a color (green / yellow / red)
+  * Current "trend" status as a color (green / yellow / red)
   * Current "target date" when we think the work will be complete (or quarter if not this quarter)
   * Definitely call out any challenges, concerns or date changes.
 
