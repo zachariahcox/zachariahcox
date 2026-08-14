@@ -57,7 +57,7 @@ Give those nominees at least a few days to respond.
 * Describe a situation where this person could have done something better.
 * Anything else?
 
-## How to write peer feedback so their managers will listen
+## How to write peer feedback so managers will listen 😂
 
 1. Keep it short -- this lets more of your writing make it through unaltered and saves everyone time.
 2. Describe specific situations and let the reader come to their own conclusions. There's no need to assess the career progression of a peer (that's their manager's job!).
