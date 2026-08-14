@@ -67,15 +67,15 @@ Give those nominees at least a few days to respond.
 
 # Writing responses
 
-## No surprises
+### No surprises
 
 If anything written here from either side astonishes the other, the first action item is to adjust how we run our 1:1s to prevent this in the future.
 
-## Focus on themes, not exceptions, when aggregating peer feedback
+### Focus on themes, not exceptions, when aggregating peer feedback
 
 I only include _themes_ from peer feedback, meaning that it came up in at least two responses.
 
-## Consider the audience
+### Consider the audience
 
 For the most part, no one besides the manager and employee will ever read these. 
 With such shared context, it's often sufficient to use short formats like: 
