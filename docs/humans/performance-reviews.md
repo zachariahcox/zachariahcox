@@ -71,9 +71,13 @@ Give those nominees at least a few days to respond.
 
 If anything written here from either side astonishes the other, the first action item is to adjust how we run our 1:1s to prevent this in the future.
 
-### Focus on themes, not exceptions, when aggregating peer feedback
+Sometimes, it is only through deep reflection (or the extra data provided by peer feedback) that certain patterns are identified. 
+These are quite interesting surprises, but adjusting 1:1s to avoid them is still the right move.
+
+### Focus on themes when aggregating peer feedback
 
 I only include _themes_ from peer feedback, meaning that it came up in at least two responses.
+If only one peer has a specific piece of feedback, pay attention but know that it could represent its own kind of bias.
 
 ### Consider the audience
 
