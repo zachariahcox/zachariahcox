@@ -15,10 +15,12 @@ Careful readers will notice that this is basically the MVC pattern, but for mana
    2. **Implement a single function** -- business logic with clear inputs and outputs
    3. **Display / UX** -- show us all your fanciest themes!
 3. A page should not do two or more things (see point \#1 😂) 
-4. A function page should be *debuggable* by *unit testing* the inputs and outputs.  
+4. Function pages should be *debuggable* by *unit testing* the inputs and outputs.
 5. Raw data pages should optimize for copy-and-pasting from CSV (or other table formats)  
    1. EG: the “import as sheet” feature should Just Work ™   
-   2. Try to minimize formatting on the data entry pages.  
+   2. Try to minimize formatting on the data entry pages.
+3. Display pages should be (mostly) READ ONLY.
+   1. When you need customer input, consider making those columns the only editable bits.
 6. Enforce your spreadsheet’s “APIs” with Data Validation rules  
    1. Use the data validation feature to constrain input. If a cell is supposed to be text, don’t leave it to chance\!  
    2. Use the write-locking feature to prevent mutation. (This has saved me more times than I can count.)  
