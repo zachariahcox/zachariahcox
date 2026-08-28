@@ -2,8 +2,8 @@
 recommended resources
 
 ## books
-* staffeng.com -- required reading if you're at senior-ish level, has a section with reviews from other staff engineers, talking about what worked for them.
-* the managers's path -- excellent overview of the roles that exist in real engineering orgs
+* staffeng.com -- required reading if you're at senior-ish level, has a section with interviews of other staff engineers talking about how they changed their approach when they changed roles. what worked for them.
+* [the managers's path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth) -- excellent overview of the roles that exist in real engineering orgs
 * crucial conversations -- practical guide to having stressful conversations. 
 * tribal leadership -- interesting approach to team dynamics
 * 7 habits of highly effective people -- recommended reading for everyone!
