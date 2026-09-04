@@ -65,7 +65,7 @@ Give those nominees at least a few days to respond.
 5. Think about how this feedback would be anonymized, aggregated, and delivered. If you were the manager reading this, how would _you_ summarize it into one sentence?
 6. If the "what could have gone better" question seems hard to answer, reframe it in your head to "what should this person focus on to be promoted to the next level?"
 
-# Writing responses
+# Principles
 
 ### No surprises
 
