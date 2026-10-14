@@ -59,10 +59,9 @@ Give those nominees at least a few days to respond.
 
 ## How to write peer feedback so managers will listen 😂
 
-1. Keep it short -- this lets more of your writing make it through unaltered and saves everyone time.
-2. Describe specific situations and let the reader come to their own conclusions. There's no need to assess the career progression of a peer (that's their manager's job!).
-3. Do not use words like "sometimes," "always," "never," etc. (see point 2!)
-5. Think about how this feedback would be anonymized, aggregated, and delivered. If you were the manager reading this, how would _you_ summarize it into one sentence?
+1. Keep it short -- managers will reuse your feedback in other documents. Pre-summarize so your words make it through unaltered. If you were the manager reading this, how would _you_ summarize it into one sentence?
+2. Stick to the facts. Describe a single situation and let the reader come to their own conclusions. You don't need to assess the career progression of a peer (that's their manager's job!).
+3. Do not use words like "sometimes," "always," "never," etc. (see point 2)
 6. If the "what could have gone better" question seems hard to answer, reframe it in your head to "what should this person focus on to be promoted to the next level?"
 
 # Principles
