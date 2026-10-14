@@ -12,11 +12,13 @@
 * Managers submit performance review into HR tooling
 
 # Performance review
-Start date:
-End date:
-Employee:
-Manager: 
-Review date:
+| What | When|
+|---:|---|
+|Period start date|
+|Period end date|
+|Employee|
+|Manager |
+|Review date|
 
 ## Looking back
 
