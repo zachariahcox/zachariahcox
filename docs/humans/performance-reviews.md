@@ -11,7 +11,8 @@
 * Managers schedule time to review feedback with employee
 * Managers submit performance review into HR tooling
 
-# Performance review
+# Self-review questions
+
 | What | When|
 |---:|---|
 |Period start date|
@@ -59,34 +60,37 @@ Give those nominees at least a few days to respond.
 * Describe a situation where this person could have done something better.
 * Anything else?
 
-## How to write peer feedback so managers will listen 😂
+# How to write so managers will listen 😂
 
 1. Keep it short -- managers will reuse your feedback in other documents. Pre-summarize so your words make it through unaltered. If you were the manager reading this, how would _you_ summarize it into one sentence?
 2. Stick to the facts. Describe a single situation and let the reader come to their own conclusions. You don't need to assess the career progression of a peer (that's their manager's job!).
 3. Do not use words like "sometimes," "always," "never," etc. (see point 2)
 6. If the "what could have gone better" question seems hard to answer, reframe it in your head to "what should this person focus on to be promoted to the next level?"
 
-# Principles
+# Principles for Performance Reviews
 
-### No surprises
-
-If anything written here from either side astonishes the other, the first action item is to adjust how we run our 1:1s to prevent this in the future.
-
-Sometimes, it is only through deep reflection (or the extra data provided by peer feedback) that certain patterns are identified. 
-These are quite interesting surprises, but adjusting 1:1s to avoid them is still the right move.
-
-### Focus on themes when aggregating peer feedback
-
-I only include _themes_ from peer feedback, meaning that it came up in at least two responses.
-If only one peer has a specific piece of feedback, pay attention but know that it could represent its own kind of bias.
+## For everyone
 
 ### Consider the audience
-
-For the most part, no one besides the manager and employee will ever read these. 
+It's likely only the manager and employee will ever read these.
 With such shared context, it's often sufficient to use short formats like: 
 
 * Bullet point
   * Justification 1 (link)
   * Justification 2 (link)
  
-The links are there for those future managers to review and also to ensure there are no misunderstandings. 
+The links are there for those future managers to review and also to ensure there are no misunderstandings.
+
+## For managers
+### No surprises
+
+If anything written here from either side astonishes the other, the first action item is to adjust how you run your 1:1s to prevent this in the future.
+
+Sometimes, only after deep reflection (or the extra data provided by peer feedback) do you notice certain patterns.
+This kind of surprise is hard to avoid completely, but adjusting 1:1s is still the right move.
+
+### Focus on themes when aggregating peer feedback
+
+Only include _themes_ from peer feedback. A "theme" means that the same idea came up in at least two responses.
+If only one peer has a specific piece of feedback, pay attention, but be careful not to over-index on it. 
+It could represent its own kind of bias.
