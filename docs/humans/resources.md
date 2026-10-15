@@ -1,5 +1,4 @@
-# resources
-recommended resources
+# recommended resources
 
 ## books
 * staffeng.com -- required reading if you're at senior level, has a section with interviews of other staff engineers talking about how they changed their approach when they changed roles. what worked for them.
