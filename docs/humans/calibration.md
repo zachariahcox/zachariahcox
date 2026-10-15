@@ -12,46 +12,45 @@ The exact format may have some specifics change between reorgs to accommodate ne
 
 | Column | Example| Commentary |
 | --- | ---| ---|
-| Name / username | zacox | Basic classifications
-| Role | manager |
-| Level | 10 |
-| Up for promo? (if yes, provide url) | No | This is regularly useful for determining if maybe a promo is better than a super high performance rating.|
-| m1 rating | 100 | This is the manager's "approximately balanced for their own team" rating. Typically 0% - 200%. |
-| m2 rating | - | This is the result of a department-level calibration and represents the budget balanced rating when compared to all peers within the local org. |
-|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down the data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line projects directly attributable to this engineer |
+| Name / username | zacox | |
+| Role / Level | Engineering Manager 7 | What career-level expectations should apply here?
+| Up for promo? | No (if yes, provide URL) | Calibrations should tell a story -- you cannot be up for promo and have a low rating. consistently super high ratings may imply we need to push the manager for promo packet|
+| m1 rating | Typically 0% - 200%. | Before department-level calibration, does NOT include budget constraints. |
+| m2 rating | Typically 0% - 200%. | After department-level calibration, DOES include budget constraints. |
+|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down the data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line results directly attributable to this engineer |
 | Why not higher? ("wnh") | Despite strong performance with project Omega, the data center situation prevents me from recommending anything higher than 100. | These three questions help calibrate the rating by providing explicit insight into the manager's thought process. They should be written to allow someone with no knowledge of the referenced people to understand what's going on.
-| Why not lower? ("wnl")  | Project Omega is a huge success, we'll see how Alpha turns out. Under normal circumstances the data center problem would have pulled my recommendation down to 60 or 0, but given the big wins, 100 seems right.
-| Top growth opportunity ("top") | Slowing down and being more careful will lead to fewer mistakes. Upcoming collaborations with external team around Project Beta.| |
+| Why not lower? ("wnl")  | Project Omega is a huge success, we'll see how Alpha turns out. Under normal circumstances the data center problem would have pulled my recommendation down to 60 or 0, but given the big wins, 100 seems right. | In higher-level calibrations, what should your manager keep top-of-mind if considering moving this candidate down a level?
+| Top growth opportunity ("top") | Slowing down and being more careful will lead to fewer mistakes. Upcoming collaborations with external team around Project Beta.| These need to be _real_ tasks you actually plan to assign them. Avoid saying "lead a big project" with no plan in mind.
 
 
 ## Calibration meetings
 
-There will be a series of meetings where the team leaders will align on:
+There will be a series of meetings where the team leaders will align on.
+Depending on the initial alignment between managers, this can take a while.
 
-1. What does "target" impact look like for each role (EG: "Senior Software Eng")
+1. What does "target" impact look like for each role (EG: "this period Nick set the standard for Senior Software Eng")
 1. Balancing the rewards to meet the given budget.
-1. Configuring the rewards to meet any required "differentiation" goals.
-   * EG: X engineers must receive top rewards and Y must receive low rewards.
-   * EG: X% of engineers may receive "target" rewards.
-1. Definition of "cohorts" and "pain points" (see below)
+2. Definition of "cohorts" and "pain points" (see below)
+1. Configuring the rewards to meet any required differentiation goals.
+   * EG: X engineers must receive top rewards and Y must receive bottom rewards.
+   * EG: No more than X% of engineers may receive "target" rewards.
 
-Depending on the initial skew this can take a while.
-
-### 1. M1 Calibration: initial ratings
+### 1. Local manager Calibration: initial ratings
 Each manager will produce a rating for each member of their team.
 
-These ratings work best when they are an honest assessment.
-Promoting the impact of your team members is an important aspect of a manager's job, but it should stop short of gamesmanship here.
+These ratings work best when they are an honest assessment based on a standardized career ladder.
+Promoting the impact of your team members is an important aspect of a manager's job, but avoid gamesmanship here. 
+IE: do not calibrate someone super high with the goal of negotiating _down_.
 Aspirational ratings do not tend to result in higher rewards for your folks in the long term, and definitely annoys your peers.
 It also slows the process down.
 
 It is much more fun to decide which folks to "pull up" to a higher rating than to spend the whole meeting pulling folks "down" into a balanced budget.
 
-If everyone arrives "mostly balanced" then balancing goes quickly, focusing mostly on outliers and constraints.
+If everyone arrives locally balanced then the merge goes quickly, focusing mostly on outliers and constraints.
 
-### 2.  M2 Calibration: Cohort analysis
+### 2. Director-level Calibration: Cohort analysis
 
-With their ratings in hand, each M1 will update a joint spreadsheet (the "calibration document") with the relevant information.
+With their ratings in hand, each manager will update a joint spreadsheet (the "calibration document") with their data.
 All attendees should review the contents beforehand.
 
 The goal of this meeting is to understand the "edges" of the range of ratings given by different managers.
