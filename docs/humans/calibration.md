@@ -12,70 +12,73 @@ The exact format may have some specifics change between reorgs to accommodate ne
 
 | Column | Example| Commentary |
 | --- | ---| ---|
-| Name / username | zacox | |
+| Name | Zac! | |
 | Role / Level | Engineering Manager 7 | What career-level expectations should apply here?
-| Up for promo? | No (if yes, provide URL) | Calibrations should tell a story -- you cannot be up for promo and have a low rating. consistently super high ratings may imply we need to push the manager for promo packet|
-| Local manager rating | Typically 0% - 200%. | Before department-level calibration, does NOT include budget constraints. |
-| Director rating | Typically 0% - 200%. | After department-level calibration, DOES include budget constraints. |
-|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down a data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line results directly attributable to this engineer |
-| Why not higher? ("wnh") | Despite strong performance with project Omega, the data center situation prevents me from recommending anything higher than 100. | These three questions help calibrate the rating by providing explicit insight into the manager's thought process. They should be written to allow someone with no knowledge of the referenced people to understand what's going on.
+| Up for promo? | No (if yes, provide URL) | Calibrations should tell a story -- you cannot be up for promo and have a low rating. Consistently super high ratings may imply we need to push the manager for promo packet.
+| Local manager rating | Typically 0% - 200%. | Before department-level calibration, does NOT include budget constraints.
+| Director rating | Typically 0% - 200%. | After department-level calibration, DOES include budget constraints.
+|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down a data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line results directly attributable to this engineer.
+| Why not higher? ("wnh") | Despite strong performance with project Omega, the data center situation prevents me from recommending anything higher than 100. | Providing explicit insight into the manager's thought process. Write these to allow someone with no knowledge of the person to understand what's going on.
 | Why not lower? ("wnl")  | Project Omega is a huge success, we'll see how Alpha turns out. Under normal circumstances the data center problem would have pulled my recommendation down to 60 or 0, but given the big wins, 100 seems right. | In higher-level calibrations, what should your manager keep top-of-mind if considering moving this candidate down a level?
 | Top growth opportunity ("top") | Slowing down and being more careful will lead to fewer mistakes. Upcoming collaborations with external team around Project Beta.| These need to be _real_ tasks you actually plan to assign them. Avoid saying "lead a big project" with no plan in mind.
 
 
 ## Calibration meetings
 
-There will be a series of meetings where the team leaders will align on.
-Depending on the initial alignment between managers, this can take a while.
+There will be a series of meetings where the team leaders build alignment on ratings.
+Depending on the initial skew, this can take a while.
 
-1. What does "target" impact look like for each role (EG: "this period Nick set the standard for Senior Software Eng")
+Goals include:
+1. What does "target" impact look like for each role this period. Who exemplifies this? (EG: "this period Nick is our example of SWE4 at 100%")
 1. Balancing the rewards to meet the given budget.
-2. Definition of "cohorts" and "pain points" (see below)
-1. Configuring the rewards to meet any required differentiation goals.
+2. Defining "cohorts" (groups of engineers with similar impact) and "pain points" (employees where the balanced rating is not ideal)
+1. Meeting required differentiation goals.
    * EG: X engineers must receive top rewards and Y must receive bottom rewards.
-   * EG: No more than X% of engineers may receive "target" rewards.
+   * EG: No more than Z% of engineers may receive "target" rewards.
 
-### 1. Local manager Calibration: initial ratings
-Each manager will produce a rating for each member of their team.
+### 1. Initial ratings
 
-These ratings work best when they are an honest assessment based on a standardized career ladder.
-Promoting the impact of your team members is an important aspect of a manager's job, but avoid gamesmanship here. 
+Each director will produce a spreadsheet for collecting ratings for their department.
+Each manager will produce a rating for each member of their team in the spreadsheet.
+
+These initial ratings work best when they are an honest assessment based on a standardized career ladder.
+Avoid gamesmanship here. 
 IE: do not calibrate someone super high with the goal of negotiating _down_.
-Aspirational ratings do not tend to result in higher rewards for your folks in the long term, and definitely annoys your peers.
+Artificially-high ratings do not tend to result in higher rewards for your folks in the long term, and definitely annoy your peers in the short term.
 It also slows the process down.
 
-It is much more fun to decide which folks to "pull up" to a higher rating than to spend the whole meeting pulling folks "down" into a balanced budget.
-
+It is much more fun to decide which folks to "pull up" to a higher rating than to spend the whole meeting pulling folks "down" to balance the budget.
 If everyone arrives locally balanced then the merge goes quickly, focusing mostly on outliers and constraints.
 
-### 2. Director-level Calibration: Cohort analysis
+### 2. Cohort analysis
 
-With their ratings in hand, each manager will update a joint spreadsheet (the "calibration document") with their data.
-All attendees should review the contents beforehand.
+For each level and job type (EG: Senior Software Engineer), group employees with similar impact for the period together into "cohorts."
+It's common for us to see "cohorts" of ICs with similar impact profiles. 
+EG: "if Joe is rated 120%, then so is Jane who had similar impact this period."
 
-The goal of this meeting is to understand the "edges" of the range of ratings given by different managers.
-It is very difficult to estimate the relative impact between, say, a database engineer and a frontend component developer.
-They have different bug volumes, feature completion rates, relative risk, lines of code, project timelines, etc.
+Notes: 
+* It's common for engineers from the same teams to fall into the same initial cohorts.
+* You do not need to produce a full stack-rank of the org, but you need to identify the top and bottom performers of each cohort to facilitate future merge sorts.
+* These outliers should be well-sorted.
+* It really helps if all attendees review the spreadsheet before the meeting -- it's a lot to read.
 
-However, it's common for us to see "cohorts" of ICs with similar impact profiles. For these folks, it's easy to say "if Joe has 120 impact, then so does Jane who had a similar portfolio this period."
-It's common for engineers from the same teams to fall into the same initial cohorts.
+At higher-level calibrations (Senior-director-level calibration), only the sorted tops-and bottoms of cohorts are compared to produce the larger sorted lists.
+In practice, this feels like exploring the "edges" of the cohorts produced by different managers.
+EG: how does the top-performing senior engineer (the "top edge") from Mark's team compare to the lowest performing senior engineer (the lowest edge) from Mary's team?
+During this phase, we look for patterns like "The top performer in Mark's 80% cohort had higher impact than the lowest in Mary's 100% cohort."
+We discuss why this may be, and it typically causes a realignment where either one of Mark's folks moves up or one of Mary's folks move down, and we apply the learnings from the discussion to other similar situations.
+This repeats until we have a calibrated impact rating for each engineer.
 
-We will spend the bulk of the time in this M2 meeting discussing which impact cohorts each person fell into this period.
+At the end of this process, the boss will have enough documentation to defend all impact assessments and we will have a budget that is balanced.
 
-Once we have these cohorts loosely formed, for each we will compare the "highest performer from Manager 1 vs lowest performer from Manager 2."
-During this phase, we look for patterns like "The top performer in Jason's 80 cohort seems to have had higher impact than the lowest in Zac's 100 cohort."
-
-We discuss why this may be, and it typically causes a realignment where either one of Jason's folks moves up or one of Zac's folks move down, and we apply the learnings from the discussion to other similar situations.
-
-This repeats until we have an M2 calibrated impact rating for each engineer.
-At the end of this process, the M2 will have enough documentation to defend all impact assessments, we will have a budget that is balanced, however it usually comes with some uncomfortable choices or "pain points."
-
-We clearly document these pain points and why we don't like them and we bring this information next higher level of calibration.
-
-### 3. M3+ Calibration: Pain points, Budgets and Themes
+### Pain points
 
 At some point in the hierarchy, teams will be required to exactly meet or beat their given budget.
-Hopefully, balancing at higher and higher levels produces some wiggle room to address the noted pain points elsewhere.
+A balanced budget usually comes with some uncomfortable choices or "pain points."
+We clearly document these pain points, why we don't like them, and we bring this information next higher-level of calibration.
+
+Hopefully, the balancing process produces some wiggle room to address the noted pain points later on.
+You may want to prepare for this by having each team spend only 98% of their allotted budget, saving 2% for pain-point mitigation.
 
 ## Other topics
 
@@ -95,3 +98,11 @@ It's normal (and encouraged!) to mark a few folks on your team for a level check
 At the end of our calibration process, we will compare their impact against the "target" cohort at the next level.
 IE: comparing your Junior IC to a few members of the Senior "target" cohort.
 If their impact is getting comparable, that's a good sign that they may be ready for a promotion to the next level.
+
+### How do you calibrate people with different roles?
+
+I don't know. 
+It is very difficult to estimate the relative impact between, say, a database engineer and a frontend component developer.
+They have different bug volumes, feature completion rates, relative risk, lines of code, project timelines, etc.
+
+If there are no other constraints to help you, it's important to have a principled approach to how you make your decisions, so they are made fairly.
