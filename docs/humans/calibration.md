@@ -1,8 +1,9 @@
 # Engineering calibration process
 
-The goal of this process is to fairly reward high performers, perform a department audit, and help our leaders align on what impact "looks like."
+The goal of this process is to fairly reward high performers, align performance review feedback with rewards, and help our leaders align on what impact "looks like."
 
-We will reference the discipline's official career ladder regularly.
+We will reference each role's official career ladder extensively.
+It is the agreed-upon set of rubrics for evaluating impact.
 
 Depending on the scope of the calibration, it may not be possible to review each employees contributions in detail.
 In this way, the process works like a giant merge sort, where the sub-sorting is delegated.
