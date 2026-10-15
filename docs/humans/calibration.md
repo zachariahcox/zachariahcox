@@ -15,9 +15,9 @@ The exact format may have some specifics change between reorgs to accommodate ne
 | Name / username | zacox | |
 | Role / Level | Engineering Manager 7 | What career-level expectations should apply here?
 | Up for promo? | No (if yes, provide URL) | Calibrations should tell a story -- you cannot be up for promo and have a low rating. consistently super high ratings may imply we need to push the manager for promo packet|
-| m1 rating | Typically 0% - 200%. | Before department-level calibration, does NOT include budget constraints. |
-| m2 rating | Typically 0% - 200%. | After department-level calibration, DOES include budget constraints. |
-|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down the data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line results directly attributable to this engineer |
+| Local manager rating | Typically 0% - 200%. | Before department-level calibration, does NOT include budget constraints. |
+| Director rating | Typically 0% - 200%. | After department-level calibration, DOES include budget constraints. |
+|Impact overview| * Completed Project Omega, contributing 1B ARR<br/>* Burned down a data center due to Gross Incompetence<br/>* Consulted on Project Alpha| This should be a 3 to 5 bullet point summary of top-line results directly attributable to this engineer |
 | Why not higher? ("wnh") | Despite strong performance with project Omega, the data center situation prevents me from recommending anything higher than 100. | These three questions help calibrate the rating by providing explicit insight into the manager's thought process. They should be written to allow someone with no knowledge of the referenced people to understand what's going on.
 | Why not lower? ("wnl")  | Project Omega is a huge success, we'll see how Alpha turns out. Under normal circumstances the data center problem would have pulled my recommendation down to 60 or 0, but given the big wins, 100 seems right. | In higher-level calibrations, what should your manager keep top-of-mind if considering moving this candidate down a level?
 | Top growth opportunity ("top") | Slowing down and being more careful will lead to fewer mistakes. Upcoming collaborations with external team around Project Beta.| These need to be _real_ tasks you actually plan to assign them. Avoid saying "lead a big project" with no plan in mind.
