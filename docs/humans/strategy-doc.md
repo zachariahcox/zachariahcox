@@ -1,4 +1,4 @@
-# Engineering Strategy Doc (File \> Make a copy)
+# Engineering Strategy Doc (copy + paste "from markdown")
 
 Author: @YOUR NAME HERE  
 Proposed: Dec 15, 2025  
@@ -33,7 +33,7 @@ Identify all key "use cases," flows, or behaviors needed and briefly describe ho
 Call out any big pros and cons. 
 
 _Push_ your reviewers to help you fill in this section to the best of our collective ability.
-Often, the quality of the overall product is limited by our understanding of the key scenarios.
+Often, we address only the cases listed here and no others. Let's make sure we have them all!
 
 ### 1\. Key thing that has to work
 
